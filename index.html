@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome to With-Calli </title>
+	<style>
+		* { margin: 0;
+			font-family: "맑은 고딕", "Malgun Gothic", sans-serif;
+			 }
+		body{
+			width: 1000px;
+			background-color: #252525;
+			margin: 0px auto;
+			color: white;
+		}
+		a {	text-decoration: none; }
+		li { list-style: none; }
+		.navi a { color : white; }
+		.box1 a { color: white; }
+		#page {
+			background-color: #000000;
+			margin: 40px 0px;
+			padding: 20px;
+			border-radius: 10px;
+		}
+		.box{
+			width: 870px;
+			height: 30px;
+			margin: 30px 20px;
+			padding: 5px;
+			background: #8041D9;
+			display: inline-block;
+		}
+
+/*		.v{widows: 100px
+			height: 50px;
+			background: blue;
+			display: block; }	
+		.navi>ul>li:hover{
+			background-color: yellow;
+		}	*/
+		.box1>ul>li{
+			padding: 5px 5px;
+			line-height: 20px;
+		}
+		.box1>ul>li:hover{
+			background-color: #A566FF;
+		}
+		.navi{
+			margin: 5px 0px;
+			border-top: 1px solid #000000;
+			border-bottom: 1px solid #000000;
+			height: 60px;
+		}
+		.navi>ul>li{
+			display: inline-block;
+			padding: 5px 50px;
+			line-height: 50px
+		}
+		.navi>ul>li:hover{
+			background-color: #8041D9;
+		}
+		.main{
+			float: left;
+		}
+		.right{
+			float: right;
+			max-width: 400px;
+		}
+		footer{
+			margin: 40px 0px;
+			padding: 20px;
+			clear: both;
+		}
+		.side{
+			display: inline-block;
+			margin-top: 50px;
+	</style>
+</head>
+<body>
+	<div id="page">
+	<header>
+		<h1> 밤하늘 그리고 시 </h1>
+	</header>
+
+	<nav>
+		<div class="navi">
+			<ul>
+				<li><a href="sub_01.html">밤하늘 산책</a></li>
+				<li><a href="sub_02.html">창작 시</a></li>
+				<li><a href="sub_03.html">포토 시</a></li>
+				<li><a href="sub_04.html">책 속의 한 줄</a></li>
+				<li><a href="sub_05.html">공지사항</a></li>
+			</ul>
+		</div>
+	</nav>
+	<section class="main">
+		
+		<article>
+			<hr>
+			<img src="../images/moon1.jpg" alt="">
+		</article>
+
+			<div class="box">
+			<h3>오늘의 시</h3>
+			<br>
+			<div class="box1">
+			<ul>
+				<li><a href="sub_01.html">가을의 노래</a></li>
+				<li><a href="sub_02.html">우리가 함께 장마를 볼 수 있겠습니다.</a></li>
+				<li><a href="sub_03.html">가로수</a></li>
+				<li><a href="sub_04.html">고양이 학교</a></li>
+				<li><a href="sub_05.html">부는 대로</a></li>
+			</ul>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		
+				Copyright@mo._.ment
+				<hr>
+				<h3 style="color: #ffffff; font-size: 10px;"> jjm0394@gmail.com </h3>
+	    <article class="side">
+			<audio src="../media/Eternal Garden - Dan Henig.mp3" controls autoplay></audio>			
+		</article>
+		<aside class="right">
+		<h3> Login</h3>
+		<form action="#" method="post">
+			ID :   <input type="text" name="id"> <br>
+			PW : <input type="password" name="pw"> <br>
+			<input type="radio" value="1" name="grade">ID 저장</input>
+	<br>
+			<input type="submit" value="로그인">
+<br>
+		</form>
+	</aside>
+	</footer>
+</div>
+</body>
+</html>
